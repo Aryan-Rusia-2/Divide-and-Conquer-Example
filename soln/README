@@ -1,0 +1,49 @@
+Name:  Aryan Rusia
+SID:   1669003
+CCID:  rusia
+CMPUT 275 Winter 2022
+Weekly Exercise 7 - Divide and Conquer
+-------------------------------------------
+
+
+Included Files :
+
+  1) climbing.cpp
+  2) climbing.sh
+  3) README
+  4) Makefile
+ 
+
+Running Instructions :
+	
+	1) OPen the terminal and go to the soln directory
+	2) Type make to compile the code
+	3) GIve inputs using terminal and get the desired results
+	4) If one wants to run the test cases, then do the following -
+		i) Type cd .. to go one directory back
+		ii) Type make, and this will run the test cases.
+
+
+	
+Files Modified OR Added :
+
+	i) climbing.cpp
+
+	ii) README
+
+	iii) Makefile
+
+
+NOtes and Assumptions :
+
+	1) I declared a function 'uint climbing(const uint *heights, uint length, uint rest, uint limit)' which determines the minimum burst time
+
+	2) Time complexity of the solution is O(length*log(limit))
+
+	3) I have implemented binary search to find the minimum burst tine.
+
+	4) All the stdin and stdout is done in the main function.
+
+
+
+	
